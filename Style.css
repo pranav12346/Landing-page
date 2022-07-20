@@ -1,0 +1,220 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.navbar{
+    height:90px;
+    width:100%;
+    background: rgba(0,128,0,0.4);
+}
+ .logo img{
+    float:left;
+    height:70px;
+    width:80px;
+    padding:10px 20px;
+   
+}
+.navbar ul{
+    float:right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin:0 10px;
+    display:inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:blue;
+    font-family: 'Roboto';
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+.container{
+    background: yellow;
+    width:100%;
+    height:250px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:45%;
+    padding:20px;
+    box-shadow: 0 15px 30px rgba;
+}
+.image-container{
+    position: relative;
+}
+#SlideImage{
+    width:800px;
+    height:240px;
+    left:250px;
+    display: none;
+    position: relative;
+}
+.active{
+    display: block;
+}
+#prev,#next{
+    height:40px;
+    width:40px;
+    position:absolute;
+    color:blue;
+    top:0;
+    bottom:0;
+    margin: auto;
+   border-radius: 3px;    
+}
+#prev{
+    left:50px;
+}
+#next{
+    right:50px;
+}
+#aboutus{
+    background: green;
+    width:50%;
+    height:250px;
+    left:30%;
+    margin:auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:100%;
+    padding:5px;
+    
+}
+.aboutus-container{
+position: absolute;
+
+}
+
+
+
+.about{
+    position: absolute;
+    top:75%;
+    padding:78px 0px;
+}
+.about h1{
+    margin-left: 200px;;
+    padding:0px 50px;
+}
+
+#About{
+    padding:10px 10px;
+}
+
+
+
+.main{
+     position: absolute;
+    top:75%;
+    margin-left: 0px;
+    width:3000px;
+    margin:0 auto;
+    padding:30px 200px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text{
+    
+    margin-left: 450px;
+}
+.about-text p{
+   font-size: 20px;
+    letter-spacing: 1px;
+}
+.main h1{
+    margin-left: -20px;
+    margin-top: -30px;
+}
+
+.main img{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -5px;
+   display: flex;
+   flex-wrap: wrap;
+    left:100px;
+    height:120px;
+    width:250px;
+    padding: 30px 20px;
+}
+#contact{
+    position: absolute;
+    top:100%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    display:block;
+    align-items: center;
+}
+.contact-box{
+    background-color: green;
+    display:flex;
+    flex-direction: row;
+    border:1px solid black;
+    margin-top: 100%;
+    margin-top: 120%;
+    max-height: 200px;
+    padding:10px 20px;
+    max-width: 650px;
+    margin-bottom: 580px;
+}
+.contact-box p{
+    margin-top: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+.Touch{
+    position: relative;
+    
+}
+.Input{
+    margin:12px 50px;
+   line-height: 2px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Input textarea{
+    width:150px;
+    height:100px;
+    border:1px solid black;
+
+}
+.map{
+
+    filter:grayscale(0.2);
+    margin-left: 800px;
+    padding:0px 0px;
+    margin-top: 40%;
+    box-shadow: 2px 2px 30px;
+     
+    border:2px solid black
+}
+.Contact{
+    position: absolute;
+    top:92%;
+    left:45%;
+}
+
+
+footer{
+    border:1px solid black;
+    text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
